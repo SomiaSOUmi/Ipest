@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.Tech2">
+
+    <Grid BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row ="1" Text="Scan Trap" x:Name="qrin" Style="{StaticResource buttonStyle}" Clicked="Qrin_Clicked"/>
+        <Button Grid.Row="2" Text="Back" x:Name="back2" Style="{StaticResource buttonStyle}" Clicked="Back2_Clicked" />
+
+    </Grid>
+</ContentPage>

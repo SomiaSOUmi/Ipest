@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.TechIssue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Take image" x:Name="image" Style="{StaticResource buttonStyle}" Clicked="Image_Clicked" />
+            <Image x:Name="imageT"  HeightRequest="200" WidthRequest="200" />
+            <Label Text="Notes" Style="{StaticResource  LargerlabelStyle}" HorizontalOptions="Center"/>
+            <Entry Placeholder="Type your notes here..." HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center"/>
+            <Button  Text="Submit" x:Name="Submit" Style="{StaticResource buttonStyle}" Clicked= "Submit_Clicked" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

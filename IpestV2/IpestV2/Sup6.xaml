@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="IpestV2.Sup6">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text=" Technician performance"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" Style="{StaticResource LargerlabelStyle}" Margin=" 0,30,0,30" />
+
+
+                <microcharts:ChartView x:Name="chartView1" HeightRequest="300" EnableTouchEvents="True" Touch="ChartView1_Touch"  />
+                
+
+                <Label Text="Number of visits per technician last 7 days"  HorizontalOptions="Center" Style="{ StaticResource MediumlabelStyle }" />
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

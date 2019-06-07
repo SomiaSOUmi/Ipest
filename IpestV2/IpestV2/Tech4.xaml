@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.Tech4">
+
+    <StackLayout  BackgroundColor="#BCBBB9">
+        <StackLayout Orientation="Horizontal" Grid.Row="1" BackgroundColor="#203A92">
+            <Image x:Name="imgShow" Aspect="AspectFit"  />
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
+                <Label Text="Welcome Somia" FontSize="Large" FontAttributes="Bold" TextColor="White" Margin="0,10,0,0" />
+                <Label Text="Field Technician " FontSize="Small" TextColor="White"/>
+                <Label Text="ozrsoum@gmail.com" FontSize="Small" TextColor="White"/>
+            </StackLayout>
+        </StackLayout>
+
+        <Label HorizontalOptions="Center" Text="Full Action Report"  Style="{StaticResource MediumlabelStyle}" />
+
+        <Grid HorizontalOptions="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Vertical" BackgroundColor="#EBEBEB" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="1"   >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </StackLayout.GestureRecognizers>
+                <Label VerticalOptions="Center" Text="Semmer Villas BD" Style="{StaticResource MediumlabelStyle}" />
+                
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="priority" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+                    
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="dead" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="1" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="catch" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="scheduled" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                </StackLayout>
+
+            
+            </StackLayout >
+
+
+            <StackLayout Orientation="Vertical" BackgroundColor="#EBEBEB" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="2"  >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </StackLayout.GestureRecognizers>
+                <Label VerticalOptions="Center" Text="Semmer Villas AC" Style="{StaticResource MediumlabelStyle}" />
+
+                <StackLayout Orientation="Horizontal">
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="priority" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="4" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="dead" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="2" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="catch" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="scheduled" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                </StackLayout>
+
+
+            </StackLayout >
+
+
+            <StackLayout Orientation="Vertical" BackgroundColor="#EBEBEB" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="3"  >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                </StackLayout.GestureRecognizers>
+                <Label VerticalOptions="Center" Text="Cedre ABCD" Style="{StaticResource MediumlabelStyle}" />
+
+                <StackLayout Orientation="Horizontal">
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="priority" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="2" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="dead" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="1" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="catch" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                    <StackLayout Orientation="Vertical">
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" Style="{StaticResource LargerlabelStyle}" />
+                        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="scheduled" Style="{StaticResource SmalllabelStyle}" />
+                    </StackLayout >
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="    " Style="{StaticResource LargerlabelStyle}" />
+
+                </StackLayout>
+
+
+            </StackLayout >
+            
+        </Grid>
+
+    </StackLayout >
+
+
+
+
+</ContentPage>

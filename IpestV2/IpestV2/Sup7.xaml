@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="IpestV2.Sup7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text=" Technician Performance "
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" Style="{StaticResource LargerlabelStyle}" Margin=" 0,30,0,30" />
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" VerticalOptions="Start" Margin="0,20,0,50">
+                <Button x:Name="Traps" Text="Trap" Clicked="Traps_Clicked" />
+                <Button x:Name="Sites" Text="Sites" Clicked="Sites_Clicked" />
+                <Button x:Name="Scheduled" Text="Scheduled"  />
+            </StackLayout >
+
+            <microcharts:ChartView x:Name="chartView2" HeightRequest="300"  />
+
+            <Label Text="Assigned VS done visits per technician last 30 days " HorizontalOptions="Center"  />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

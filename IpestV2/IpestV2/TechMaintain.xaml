@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="IpestV2.TechMaintain">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid BackgroundColor="#F6F6F7">
+                <Grid.RowDefinitions>
+                 
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="6*"  />
+                    <RowDefinition Height="*"  />
+                </Grid.RowDefinitions>
+
+                <Label Text="Station/Trap Record" Style="{StaticResource LargerlabelStyle}" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" />
+                <StackLayout HorizontalOptions="Center" HeightRequest="350" WidthRequest="200" Orientation="Horizontal" Grid.Row="1" BackgroundColor="#FFFFFF">
+                    
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+                        <Label Text="  Station No" Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  14" Style="{StaticResource MediumlabelStyle2}" />
+                        
+                        <Label Text="  Location"  Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  MK18 1BS"  Style="{StaticResource MediumlabelStyle2}" />
+                        
+                        <Label Text="  Last Visited" Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  11/05/2019" Style="{StaticResource MediumlabelStyle2}" />
+
+                        <Label Text="  Tech ID"  Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  170143"  Style="{StaticResource MediumlabelStyle2}" />
+
+                        <Label Text="  Battery Level"  Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  Medium"  Style="{StaticResource MediumlabelStyle2}" />
+
+                        <Label Text="  Trap Status"  Style="{StaticResource SmalllabelStyle}" />
+                        <Label Text="  Active"  Style="{StaticResource MediumlabelStyle2}" />
+
+                    </StackLayout>
+                    
+                    
+
+                    <Image x:Name="imgShow" Aspect="AspectFit"  HorizontalOptions="Center"  VerticalOptions="End" />
+                </StackLayout>
+
+                <Label Text="Required maintenance type" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource LargerlabelStyle}" Grid.Row="2" />
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="250" WidthRequest="200" Orientation="Vertical" Grid.Row="3" BackgroundColor="#FFFFFF">
+
+                    <input:CheckBox HorizontalOptions="Start" VerticalOptions="Center" Text="Rat Collection" Type="Check" />
+                    <input:CheckBox HorizontalOptions="Start" VerticalOptions="Center" Text="Battery Change" Type="Check"/>
+                    <input:CheckBox HorizontalOptions="Start" VerticalOptions="Center" Text="Periodic Visit" Type="Check"/>
+                    <input:CheckBox HorizontalOptions="Start" VerticalOptions="Center" Text="Dead Device" Type="Check"/>
+                    <input:CheckBox HorizontalOptions="Start" VerticalOptions="Center" Text="Prioritised Task" Type="Check"/>
+                </StackLayout>
+
+           
+            <StackLayout  Grid.Row="4" >
+                <Button Text="Take image" x:Name="imageM" Style="{StaticResource buttonStyle}" Clicked="ImageM_Clicked" />
+                <Image x:Name="imageMain"  HeightRequest="200" WidthRequest="200"  />
+                <Label Text="Notes" Style="{StaticResource  LargerlabelStyle}" HorizontalOptions="Center" />
+                <Entry Placeholder="Type your notes here..." HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center"/>
+                <Button  Text="Submit" x:Name="SubmitM" Style="{StaticResource buttonStyle}" Clicked= "SubmitM_Clicked" />
+            </StackLayout>
+            </Grid >
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

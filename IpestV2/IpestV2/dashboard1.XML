@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Item>
+  	<id>14</id>
+	<priority>1</priority>
+	<catches>2</catches>
+	<battery>1</battery>
+	<scheduled>0</scheduled>
+</Item>
+  <Item>
+    <id>12</id>
+    <priority>1</priority>
+    <catches>1</catches>
+    <battery>1</battery>
+    <scheduled>1</scheduled>
+  </Item>
+  <Item>
+    <id>13</id>
+    <priority>2</priority>
+    <catches>2</catches>
+    <battery>10</battery>
+    <scheduled>1</scheduled>
+  </Item>
+
+
+
+</ArrayOfItem>

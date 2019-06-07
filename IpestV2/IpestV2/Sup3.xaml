@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IpestV2"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="IpestV2.Sup3">
+
+    <ContentPage.Content >
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Client X / Station XX" Style="{StaticResource LargerlabelStyle }" HorizontalOptions="Center"/>
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+            <Label Text="Stn No:"  Style="{StaticResource  MediumlabelStyle}"/>
+            <Label Text="Location:" Style="{StaticResource  MediumlabelStyle}"/>
+            <Label Text="Last visit:" Style="{StaticResource  MediumlabelStyle}" />
+            <Label Text="Tech ID:" Style="{StaticResource  MediumlabelStyle}"/>
+            <Label Text="Battery:" Style="{StaticResource  MediumlabelStyle}"/>
+            <Label Text="Trap tatus:" Style="{StaticResource  MediumlabelStyle}"/>
+            <Label Text="Technician:" Style="{StaticResource  MediumlabelStyle}" />
+        </StackLayout >
+        <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+            <Label Text= "1245 " Style="{StaticResource   MediumlabelStyle2 }"    />
+            <Label Text="MK18 1BS, Buckingham" Style="{StaticResource   MediumlabelStyle2 }"  />
+            <Label Text="26/04/2019" Style="{StaticResource   MediumlabelStyle2 }" />
+            <Label Text="1707143" Style="{StaticResource   MediumlabelStyle2 }"  />
+            <Label Text="High" Style="{StaticResource   MediumlabelStyle2 }" />
+            <Label Text="Catch" Style="{StaticResource  MediumlabelStyle2 }" />
+            <Label Text="Somia" Style="{StaticResource  MediumlabelStyle2 }" />
+        </StackLayout >
+    </StackLayout >
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

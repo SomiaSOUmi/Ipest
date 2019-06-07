@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.Tech3">
+    <ContentPage.Content>
+        <StackLayout>
+         
+            <Label x:Name="LogMin" HorizontalOptions="Center" Text=" TimePassed"/>
+            <Label x:Name="TimerValue" Text="{Binding timer}" />
+           
+            <Button x:Name="Qrout" Text=" Log Out " Style="{StaticResource buttonStyle}" Clicked="Qrout_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

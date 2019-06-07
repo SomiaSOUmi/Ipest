@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.Tech6">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F6F6F7">
+            
+            <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                <Image x:Name="imgShow" Aspect="AspectFit"  />
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
+                    <Label Text="Welcome Somia" FontSize="Large" FontAttributes="Bold" TextColor="White" Margin="0,10,0,0" />
+                    <Label Text="Field Technician " FontSize="Small" TextColor="White"/>
+                    <Label Text="ozrsoum@gmail.com" FontSize="Small" TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+           
+
+           
+            <StackLayout Orientation="Vertical" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="1" Grid.Column="0"  >
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#EBEBEB" >
+                        <Label VerticalOptions="Center" Text="Ready     " Style="{StaticResource labelStyle}" />
+                        <Image x:Name="Icon1" Aspect="AspectFit" IsVisible="True"  />
+                    </StackLayout>
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="5" FontSize="Large" TextColor="#990A21"  IsVisible="True"  />
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" HorizontalOptions="Center">
+                        <Label VerticalOptions="Center" Text="5" FontSize="Small" TextColor="#990A21"  IsVisible="True"  />
+                        <Label VerticalOptions="Center" Text="site(s)"  IsVisible="True" FontSize ="Small" />
+                    </StackLayout>
+            </StackLayout >
+
+                <StackLayout Orientation="Vertical" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="1" Grid.Column="1"  >
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#EBEBEB">
+                        <Label VerticalOptions="Center" Text="Catches   " Style="{StaticResource labelStyle}" />
+                        <Image x:Name="Icon2" Aspect="AspectFit"  />
+                    </StackLayout>
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="3" FontSize="Large"  TextColor="#35A6DA" IsVisible="True"  />
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" HorizontalOptions="Center" >
+                        <Label VerticalOptions="Center" Text="3" FontSize="Small" TextColor="#35A6DA"  IsVisible="True"  />
+                        <Label VerticalOptions="Center" Text="site(s)"  IsVisible="True" FontSize ="Small" />
+                    </StackLayout>
+                </StackLayout >
+
+                <StackLayout Orientation="Vertical" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="3" Grid.Column="0" >
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#EBEBEB">
+                        <Label VerticalOptions="Center" Text="Dead      " Style="{StaticResource labelStyle}" />
+                        <Image x:Name="Icon3" Aspect="AspectFit"  />
+                    </StackLayout>
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="1" FontSize="Large" TextColor="#E2D41D" IsVisible="True"  />
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" HorizontalOptions="Center">
+                        <Label VerticalOptions="Center" Text="1" FontSize="Small" TextColor="#E2D41D"  IsVisible="True"  />
+                        <Label VerticalOptions="Center" Text="site(s)"  IsVisible="True" FontSize ="Small" />
+                    </StackLayout>
+
+                </StackLayout >
+
+                <StackLayout Orientation="Vertical" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row ="3" Grid.Column="1"  >
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#EBEBEB">
+                        <Label VerticalOptions="Center" Text="Scheduled " Style="{StaticResource labelStyle}" />
+                        <Image x:Name="Icon4" Aspect="AspectFit"  />
+                    </StackLayout>
+                    <Label VerticalOptions="Center" HorizontalOptions="Center" Text="0" FontSize="Large" TextColor="#68AE23"  IsVisible="True"  />
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White" HorizontalOptions="Center">
+                        <Label VerticalOptions="Center" Text="0" FontSize="Small" TextColor="#68AE23"  IsVisible="True"  />
+                        <Label VerticalOptions="Center" Text="site(s)"  IsVisible="True" FontSize ="Small" />
+                    </StackLayout>
+                </StackLayout >
+
+            </Grid>
+        </StackLayout>
+
+
+</ContentPage.Content>
+</ContentPage>

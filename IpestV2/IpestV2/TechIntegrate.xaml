@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpestV2.TechIntegrate">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Please enter location data" HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Entry Placeholder="Meta data" HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

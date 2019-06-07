@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:IpestV2"
+            x:Class="IpestV2.Tech5">
+  <!--Pages can be added as references or inline-->
+
+    
+    <!-- ContentPage Building
+        <local:Tech6></local:Tech6>
+        <local:Tech4></local:Tech4>
+
+-->
+
+    
+    <local:Tech6></local:Tech6>
+    <local:Tech4></local:Tech4>
+    
+
+</CarouselPage>
