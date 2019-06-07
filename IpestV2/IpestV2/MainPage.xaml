@@ -14,10 +14,7 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="2*"/>
-                
+
             </Grid.RowDefinitions>
             <Image x:Name="imgShow" Aspect="AspectFit" Grid.Row=" 1" />
 
@@ -25,21 +22,18 @@
            HorizontalOptions="Center" TextColor="#017EB6" Grid.Row="2" />
 
 
-            <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-                <Label   Text="Email"  />
-                <Entry Keyboard="Email" Placeholder="Enter email address please" x:Name="email" />
-            </StackLayout>
 
-            <StackLayout Grid.Row="4" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-                <Label  Text="Password"  />
-                <Entry IsPassword="True" Placeholder="Enter Your Password" />
-            </StackLayout>
-            
-            <Button Text="LOGIN"
+            <Button Text="Login Supervisor"
+                
+                Clicked="Button_Clicked" 
+                
+             Grid.Row="3" Style="{StaticResource buttonStyle}" />
+
+            <Button Text="Login Technician"
                 
                 Clicked="Button_Clicked_1" 
                 
-             Grid.Row="6" Style="{StaticResource buttonStyle}" />
+             Grid.Row="4" Style="{StaticResource buttonStyle}" />
             
         </Grid>
         </ContentPage.Content>
