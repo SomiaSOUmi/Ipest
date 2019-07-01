@@ -1,11 +1,2 @@
-USERNAME = etraprussell_developer
+
 PASSWORD = IpestDBDeveloperPassword
-
-create web services  to redirect my code to the database to the serveur 
-web services:
-ASP.net
-SOAP
-HTTP
-
-THEY GIVE A KEY TO USE IT ANS IT REPRESENTS THE WEBSERVICE 
-IN C# THERE IS A FUCNTION TO CONNECT TO WEB SERVICES
