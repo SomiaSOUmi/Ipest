@@ -26,6 +26,7 @@ namespace IpestV2
 
         private  void Qrin_Clicked(object sender, EventArgs e)
         {
+
             Scanner();
             // await Navigation.PushModalAsync(new NavigationPage(new Tech3()));
 
@@ -43,6 +44,7 @@ namespace IpestV2
                 Device.BeginInvokeOnMainThread(() => {
                     Navigation.PopAsync();
                     DisplayAlert(" Scan Code ", result.Text, " OK ");
+                    Navigation.PushModalAsync(new NavigationPage(new Tech1_1()));
                 });
             };
 
@@ -56,9 +58,12 @@ namespace IpestV2
 
         private async void Back2_Clicked(object sender, EventArgs e)
         {
-            
+
+            //await Navigation.PopAsync();
             await Navigation.PushModalAsync(new NavigationPage(new Tech1()));
-            
+
+
+
         }
     }
 }

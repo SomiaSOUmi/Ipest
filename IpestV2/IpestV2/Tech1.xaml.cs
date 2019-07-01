@@ -21,7 +21,6 @@ namespace IpestV2
 		{
 			InitializeComponent ();
             this.imgShow.Source = ImageSource.FromResource("IpestV2.images.pic4.png");
-            //this.back.Image = (FileImageSource)FileImageSource.FromResource("IpestV2.images.pic5.png");
         }
 
 

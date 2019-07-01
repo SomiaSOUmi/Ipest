@@ -18,10 +18,7 @@ namespace IpestV2
 			InitializeComponent ();
 		}
 
-        private void Integrate_Clicked(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void Migrate_Clicked(object sender, EventArgs e)
         {

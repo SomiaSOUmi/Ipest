@@ -10,16 +10,14 @@ using Xamarin.Forms.Xaml;
 namespace IpestV2
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TechIntegrate : ContentPage
+	public partial class Tech1_2 : ContentPage
 	{
-		public TechIntegrate ()
+		public Tech1_2 ()
 		{
 			InitializeComponent ();
 		}
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            Application.Current.MainPage.Navigation.PopModalAsync();
-        }
-    }
+        
+
+	}
 }

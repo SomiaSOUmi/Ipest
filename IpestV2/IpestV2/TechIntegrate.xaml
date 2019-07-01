@@ -4,9 +4,10 @@
              x:Class="IpestV2.TechIntegrate">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Please enter location data" HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
-            <Entry Placeholder="Meta data" HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
-
+            <Editor Placeholder="Please enter location data" HeightRequest ="200" WidthRequest="400" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Editor Placeholder="Meta data" HeightRequest ="300" WidthRequest="400" BackgroundColor="LightBlue" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Button  Text="Submit" Clicked="Button_Clicked"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

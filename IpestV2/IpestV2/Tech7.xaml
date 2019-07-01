@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IpestV2.Tech7">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="New Trap" x:Name="integrate" Style="{StaticResource buttonStyle}" Clicked="Integrate_Clicked" HorizontalOptions="Center" VerticalOptions="Center" />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Button Text="Migrate existing trap" x:Name="migrate" Style="{StaticResource buttonStyle}" Clicked="Migrate_Clicked" HorizontalOptions="Center" VerticalOptions="Center" />
 
         </StackLayout>

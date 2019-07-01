@@ -71,30 +71,14 @@ namespace IpestV2
                 ValueLabel = "1",
                 Color = SKColor.Parse("#266489")
                  },
-                 new Entry(1)
-                {
-                Label = "Peter",
-                ValueLabel = "1",
-                Color = SKColor.Parse("#266489")
-                 },
+
                 new Entry(6)
                 {
                 Label = "Gerry",
                 ValueLabel = "6",
                 Color = SKColor.Parse("#266489")
                  },
-                new Entry(8)
-                {
-                Label = "Harry",
-                ValueLabel = "8",
-                Color = SKColor.Parse("#266489")
-                 },
-                new Entry(12)
-                {
-                Label = "James",
-                ValueLabel = "12",
-                Color = SKColor.Parse("#266489")
-                 },
+
                 new Entry(7)
                 {
                 Label = "Mary",
@@ -115,28 +99,23 @@ namespace IpestV2
                 {
                 Label = "Susan",
                 ValueLabel = "4",
-                Color = SKColor.Parse("#266259")
+                Color = SKColor.Parse("#f0c500")
                 },
                 new Entry(1)
                 {
                 Label = "Bertha",
                 ValueLabel = "1",
-                Color = SKColor.Parse("#126489"),
+                Color = SKColor.Parse("#126450"),
 
                 },
                 new Entry(2)
                 {
                 Label = "George",
                 ValueLabel = "2",
-                Color = SKColor.Parse("#366489"),
+                Color = SKColor.Parse("#f0c5b9"),
 
                 },
-                 new Entry(3)
-                {
-                Label = "Victor",
-                ValueLabel = "3",
-                Color = SKColor.Parse("#261299")
-                 }
+
             }; 
             // var chart = new BarChart() { Entries = entries };
             var chart = new LineChart() { Entries = entries };

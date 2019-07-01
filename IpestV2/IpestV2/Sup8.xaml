@@ -14,7 +14,7 @@
                 <microcharts:ChartView x:Name="chartView1" HeightRequest="300" Margin=" 20,20,20,20" />
                 
                 
-                <Label Text="Top 5 clients Integration" HorizontalOptions="Center"  />
+                <Label Text="Top clients Integration" HorizontalOptions="Center"  />
 
                 
                 <microcharts:ChartView x:Name="chartView" HeightRequest="300" Margin=" 20,20,20,20"  />

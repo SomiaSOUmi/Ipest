@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Forms.Maps;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 namespace IpestV2
 {
@@ -15,9 +16,8 @@ namespace IpestV2
     {
         public Tech5 ()
         {
-         
-            InitializeComponent();
 
+           InitializeComponent();
 
         }
     }

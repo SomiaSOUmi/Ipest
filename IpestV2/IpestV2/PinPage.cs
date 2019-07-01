@@ -18,53 +18,53 @@ namespace IpestV2
 			};
 
 			map.MoveToRegion (MapSpan.FromCenterAndRadius (
-				new Position (36.9628066,-122.0194722), Distance.FromMiles (3))); // Santa Cruz golf course
+				new Position (51.9993, 0.9876), Distance.FromMiles (3))); // Santa Cruz golf course
 
-			var position = new Position(36.9628066,-122.0194722); // Latitude, Longitude
+			var position = new Position(51.9993, 0.9876); // Latitude, Longitude
 			var pin = new Pin {
 				Type = PinType.Place,
 				Position = position,
-				Label = "Santa Cruz",
-				Address = "custom detail info"
+				Label = "Buckingham",
+				Address = "20 Bishops court, MK18 1EG, Buckingham"
 			};
 			map.Pins.Add(pin);
 
+            /*
+                        // create buttons
+                        var morePins = new Button { Text = "Add more pins" };
+                        morePins.Clicked += (sender, e) => {
+                            map.Pins.Add(new Pin {
+                                Position = new Position(36.9641949,-122.0177232),
+                                Label = "Boardwalk"
+                            });
+                            map.Pins.Add(new Pin {
+                                Position = new Position(36.9571571,-122.0173544),
+                                Label = "Wharf"
+                            });
+                            map.MoveToRegion (MapSpan.FromCenterAndRadius (
+                                new Position (36.9628066,-122.0194722), Distance.FromMiles (1.5)));
 
-			// create buttons
-			var morePins = new Button { Text = "Add more pins" };
-			morePins.Clicked += (sender, e) => {
-				map.Pins.Add(new Pin {
-					Position = new Position(36.9641949,-122.0177232),
-					Label = "Boardwalk"
-				});
-				map.Pins.Add(new Pin {
-					Position = new Position(36.9571571,-122.0173544),
-					Label = "Wharf"
-				});
-				map.MoveToRegion (MapSpan.FromCenterAndRadius (
-					new Position (36.9628066,-122.0194722), Distance.FromMiles (1.5)));
-
-			};
-			var reLocate = new Button { Text = "Re-center" };
-			reLocate.Clicked += (sender, e) => {
-				map.MoveToRegion (MapSpan.FromCenterAndRadius (
-					new Position (36.9628066,-122.0194722), Distance.FromMiles (3)));
-			};
-			var buttons = new StackLayout {
-				Orientation = StackOrientation.Horizontal,
-				Children = {
-					morePins, reLocate
-				}
-			};
-
-			// put the page together
-			Content = new StackLayout { 
-				Spacing = 0,
-				Children = {
-					map,
-					buttons
-				}};
-		}
-	}
+                        };
+                        var reLocate = new Button { Text = "Re-center" };
+                        reLocate.Clicked += (sender, e) => {
+                            map.MoveToRegion (MapSpan.FromCenterAndRadius (
+                                new Position (36.9628066,-122.0194722), Distance.FromMiles (3)));
+                        };
+                        var buttons = new StackLayout {
+                            Orientation = StackOrientation.Horizontal,
+                            Children = {
+                                morePins, reLocate
+                            }
+                        };
+                        */
+            // put the page together
+            Content = new StackLayout { 
+                            Spacing = 0,
+                            Children = {
+                                map
+                              
+                            }}; 
+        }
+    }
 }
 

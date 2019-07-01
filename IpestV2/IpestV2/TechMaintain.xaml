@@ -60,7 +60,7 @@
                 <Button Text="Take image" x:Name="imageM" Style="{StaticResource buttonStyle}" Clicked="ImageM_Clicked" />
                 <Image x:Name="imageMain"  HeightRequest="200" WidthRequest="200"  />
                 <Label Text="Notes" Style="{StaticResource  LargerlabelStyle}" HorizontalOptions="Center" />
-                <Entry Placeholder="Type your notes here..." HeightRequest ="200" WidthRequest="200" BackgroundColor="LightBlue" HorizontalOptions="Center"/>
+                <Editor Placeholder="Type your notes here..." HeightRequest ="200" WidthRequest="400" BackgroundColor="LightBlue" HorizontalOptions="Center"/>
                 <Button  Text="Submit" x:Name="SubmitM" Style="{StaticResource buttonStyle}" Clicked= "SubmitM_Clicked" />
             </StackLayout>
             </Grid >

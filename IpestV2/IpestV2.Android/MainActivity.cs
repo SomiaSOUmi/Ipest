@@ -12,6 +12,7 @@ using System.Windows;
 using Xamarin.Forms.Platform.Android;
 using Android.Webkit;
 using Plugin.CurrentActivity;
+using Plugin.Permissions;
 
 namespace IpestV2.Droid
 {
@@ -33,7 +34,8 @@ namespace IpestV2.Droid
             LoadApplication(new App());
         
          }
-    
+
+  
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
         {
@@ -44,6 +46,7 @@ namespace IpestV2.Droid
             // ZXing.Net.Mobile.Forms
             // Xamarin.Forms.Maps
             // Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             //  base.OnRequestPermissionsResult(requestCode, permissions, grantResults); 
         }
